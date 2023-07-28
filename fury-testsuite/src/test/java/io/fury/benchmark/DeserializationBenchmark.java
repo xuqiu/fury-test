@@ -58,7 +58,7 @@ public class DeserializationBenchmark {
 
   // mvn test -Dtest=io.fury.benchmark.DeserializationBenchmark#deserializationBenchmark
   // -DiterNums=10000000
-  @Test()
+  @Test
   public void deserializationBenchmark() throws Exception {
     @SuppressWarnings("unchecked")
     Object data = Foo.create();
